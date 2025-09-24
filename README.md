@@ -29,7 +29,7 @@
 
                3. No Execute - prevents future scheduling AND evicts current Pods without a matching toleration. 
 
-    ``` kubectl taint nodes node_name key=value:effect ```  --> From CLI temporarily, can be removed after node restarts.
+    ``` kubectl taint nodes node_name key=value:effect ```  --> From CLI temporarily, will get removed after node restarts.
 
 - To taint nodes permanently, we can add the taint condition in **Kubelet Configuration/ Cloud Provider(EKS,AKS)**
   
