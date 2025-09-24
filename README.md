@@ -65,6 +65,7 @@
    operator: "equal"
    value: "databadse"
    effect: "NoSchedule"
+   tolerationSeconds: 300
  ```  
 **Why taints and Tolerations:**
 - Dedicated nodes → e.g., database workloads only on DB nodes.
